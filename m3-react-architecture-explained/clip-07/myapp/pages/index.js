@@ -1,6 +1,6 @@
-export default function Home() {
+export default function Home() { // Next.js entry point
 
-    function ListItems() {
+    function ListItems() { // inner component function
         const ints = [1, 2, 3];
         return (
             <>
