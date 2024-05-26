@@ -5,5 +5,5 @@ window.onload = () => {
   button.addEventListener("click", () => {
     button.innerHTML = new Date().toString();
   });
-  rootElement.appendChild(button);
+  rootElement.appendChild(button); // Append button to root element div
 };
