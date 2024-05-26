@@ -8,6 +8,6 @@ window.onload = () => {
   const childrenElements = ints.map((id,index) => {
     return React.createElement("li", { key: ints[index] }, ints[index])
   });
-  root.render(childrenElements);
+  root.render(childrenElements); // simple react example without JSX
 
 };
